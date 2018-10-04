@@ -26,9 +26,9 @@ elif(o=='-'):
           res=sub(X,Y)
 
 elif(o=='*'):
-           res==multi(x,y)
+           res=multi(x,y)
      
 elif(o=='/'):
-           res==div(x,y)
+           res=div(x,y)
             
 print(res)
