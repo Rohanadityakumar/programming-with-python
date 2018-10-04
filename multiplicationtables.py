@@ -1,5 +1,5 @@
 #printing multiplication table
-n=6
+n=16
 x=int(input("enter a number:"))
 i=1
 while(i<=15):
