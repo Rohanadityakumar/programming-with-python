@@ -21,7 +21,7 @@ while True:
 		else:
 			if ROHANITSYOURTURN:
 				print("player 1>>")
-				a[int(p)+1]=='x'
+				a[int(p)-1]=='x'
 				ROHANITSYOURTURN = not ROHANITSYOURTURN
 			
 		
@@ -29,3 +29,15 @@ while True:
 				print("player 2>>")
 				a[int(p)-1] = 'o'
 				ROHANITSYOURTURN = not ROHANITSYOURTURN
+			for i in(0,3,6):
+				if(a[i]==a[i+1] and a[i]==a[i+2]):
+					print("sorry!!!,game over"):
+					exit()
+				for i in range(3):
+					if(a[i]==a[i+3] and a[i]==a[6]):
+						print("sorry!!!,game is over")
+						exit()
+					if(a[i]==a[4] amd a[i]==a[6]):
+						print("sorry!!!,game is over")
+						exit()
+					
